@@ -1,0 +1,99 @@
+    html,
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly ;
+        background-color: wheat;
+    
+    }
+
+    h4{
+        display: flex;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        /* align-content: center;
+        justify-content: center; */
+    }
+    #countDown{
+        /* position: absolute; */
+        width: 100%;
+    }
+    #cpy_text_div{
+        border: none;
+        display: flex;
+        flex-direction: row;
+        /* position: relative; */
+    }
+    #tooltipdiv{
+        height: fit-content;
+        border: #000 10px solid;
+        margin-top: 17%;
+        padding-left: 2%;
+        position: relative;
+        padding-top: 3%;
+        /* margin-bottom: 19%; */
+        /* padding-bottom: 1%; */
+        margin-left: 3%;
+        /* margin-right: 29%; */
+    
+    }
+      .tooltip{
+        position: absolute;
+        cursor: pointer;
+        color: #fff;
+        top: 0.1%;
+        left: 1%;
+        z-index: 100;
+        border-radius: 5%;
+    
+      }
+      
+      
+      .tooltiptext {
+        visibility: hidden;
+        opacity: 0;
+        width: 140px;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px;
+        position: absolute;
+        z-index: 100;
+        border-radius: 5%;
+        bottom: 105%;
+        margin-right: 40px;
+        left: -29px;
+        bottom: 17px;
+        transition: ease-in-out opacity 0.3s;
+    }
+    
+    .tooltip:hover + #myTooltip{
+      visibility: visible;
+        opacity: 1;
+    }
+    
+      .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: fit-content;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #000 transparent transparent transparent;
+      }
+      .input{
+        border: none;
+        background-color: transparent;
+        outline: none;
+     }
+     .input:hover{
+        border: none;
+        background-color: transparent;
+        outline: none;
+     }
+        

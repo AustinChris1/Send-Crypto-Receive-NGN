@@ -1,0 +1,8 @@
+RewriteBase /transact/admin/
+RewriteEngine On
+
+## Protect A Directory
+AuthName "Access to Admin Folder"
+AuthType Basic
+AuthUserFile C:\xampp\htdocs\transact\admin\.htpasswd
+Require valid-user

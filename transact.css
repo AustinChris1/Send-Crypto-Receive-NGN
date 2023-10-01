@@ -1,0 +1,15 @@
+input{
+    text-decoration: none;
+    width: 100px;
+
+}
+
+h2{
+    color: red;
+    color: rgb(163, 162, 162);
+}
+
+/* thead */
+tr {
+    border-bottom: 2rem solid black;
+}
